@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <script language="JavaScript">
+        let name = prompt('Введите ваше имя.');
+        
+        function myName() {
+            alert("Привет, " + name);
+        }
+        myName();
+        let age = prompt('Введите ваш возраст.');   
+            switch(Number(age)) {   
+                case 18: {
+                    alert("Вы совершеннолетний, все можно!");
+                    break;
+                }
+                case 10: {
+                    alert("Вам надо учить уроки!");
+                    break;
+                }
+                case 30: {
+                    alert("Ложитесь спать, завтра на работу!");
+                    break;
+                }
+                default: {
+                    alert("Мы не знаем, что вам делать");
+                    break;
+                }
+            }
+    </script>
+    <link rel="stylesheet" href="./assets/style.css">
+
+</head>
+<body>
+    <section>
+        <div class="box">
+            <p class="text">Сегодня я расскажу про свое увлечение</p>
+        </div>
+        <div>
+            <p class="text2" id="el1">Я играю в Роблокс уже 2 года. Это мой скин.</p>
+            <button id="btn1", class="btn">I LOVE ROBLOX!!!</button>
+        </div>
+        <img src="https://kalix.club/uploads/posts/2022-12/1671754348_kalix-club-p-art-robloks-skin-krasivo-1.jpg" width="400">
+        <div>
+            <p class="text3">Игры, которые мне нравятся больше всего:
+            <ul class="text3">
+                <li>Pet Simulator X</li>
+                <li>Jailbreak</li>
+                <li>Natural Disaster Survival</li>
+                <li>Work at a Pizza Place</li>
+            </ul>
+            </p>
+    </div> 
+    </section>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
